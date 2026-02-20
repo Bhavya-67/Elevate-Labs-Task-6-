@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero">
+    <h1>Hello, I'm Bhavya 👋</h1>
+    <p>Python Developer | AI & ML Enthusiast | Flask Developer</p>
+    <a href="{{ url_for('contact') }}" class="btn">Hire Me</a>
+</section>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Computer Science student specializing in Artificial Intelligence and Machine Learning.
+        I enjoy building web applications using Flask and solving real-world problems with Python.
+    </p>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>🔹 Student Result Management System</li>
+        <li>🔹 Diabetes Prediction using Machine Learning</li>
+        <li>🔹 Python Calculator App</li>
+    </ul>
+</section>
+{% endblock %}
